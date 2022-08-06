@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,30 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>cv-web</title>
 </head>
+
 <body>
+    <!-- Navigation Bar -->
 
-    <!-- heading -->
-
-    <!-- smaller than 1024px -->
-    <div class="mobie">
-        <a  class="mobie__logo" href="#intro-link">D.T.DUC</a>
-        <div class="mobie__menuBtn">
-            <div class="hamber"></div>
+    <div class="nav">
+        <!-- Mobie (smaller than 1024px) -->
+        <div class="mobie">
+            <a class="mobie__logo" href="#intro-link">D.T.DUC</a>
+            <div class="mobie__menuBtn">
+                <div class="hamber"></div>
+            </div>
+            <div class="my__link">
+                <a class="heading__about" href="#about-link">ABOUT</a>
+                <a class="heading__works" href="#works-link">WORKS</a>
+                <a class="heading__say_hello" href="#say-hello">SAY HELLO</a>
+            </div>
         </div>
-        <div class="my__link">
+
+        <!-- Desktop (bigger than 1024px) -->
+        <div class="heading">
+            <a class="heading__intro" href="#intro-link">D.T.DUC</a>
             <a class="heading__about" href="#about-link">ABOUT</a>
             <a class="heading__works" href="#works-link">WORKS</a>
-            <a class="heading__say_hello"  href="#say-hello">SAY HELLO</a>
+            <a class="heading__say_hello" href="#say-hello">SAY HELLO</a>
         </div>
     </div>
 
@@ -31,22 +42,14 @@
         <span class="one__cirle circle-4" style="width: 40%; height: 40%"></span>
         <span class="one__cirle circle-5" style="width: 20%; height: 20%"></span>
     </div>
-    
-    <!-- BAR -->
+
+    <!-- contact__bar -->
     <div class="contact__bar">
-        <a href="https://www.facebook.com/duc.doanh.3597/" class="facebook">FACEBOOK</a>
-        <a href="https://zalo.me/0367223095" class="youtube">ZALO</a>
-        <a href="" class="twitter">TWITTER</a>
+        <a href="https://www.facebook.com/duc.doanh.3597/" target="_blank" class="facebook">FACEBOOK</a>
+        <a href="https://zalo.me/0367223095" target="_blank" class="youtube">ZALO</a>
+        <a href="" target="_blank" class="twitter">TWITTER</a>
     </div>
 
-    <!-- bigger than 1024px -->
-    <div class="heading">
-        <a class="heading__intro" href="#intro-link">D.T.DUC</a>
-        <a class="heading__about" href="#about-link">ABOUT</a>
-        <a class="heading__works" href="#works-link">WORKS</a>
-        <a class="heading__say_hello"  href="#say-hello">SAY HELLO</a>
-    </div>
-    
     <!-- INTRO -->
     <div class="introduction" id="intro-link">
         <div class="section">
@@ -61,10 +64,10 @@
 
 
     <!-- ABOUT -->
-    <div class="about" id="about-link">
+    <div class="about" >
         <div class="column-left-about">
-            <img src="./assets/images/about-photo.jpg" alt="about-photo">
-        </div>  
+            <img src="./assets/images/about-photo.jpg" id="about-link" alt="about-photo">
+        </div>
         <div class="column-right-about">
             <div class="about-content">
                 <div class="section">
@@ -72,8 +75,14 @@
                     <p class="feature">ABOUT ME</p>
                     <div class="hr hr-mobie"></div>
                 </div>
-                <p class="Lorem">I graduated with an International Economics degree in the Ho Chi Minh City Open University, looking for a position in Quality System Assistant Staff, as well as problems and solutions within the industry. As a person, I am hard working, passionate and always curious about problems. As an employee, I am honest, responsible, friendly and helpful. I hope I can bring all that to contribute toward the development of the Company.</p>
-                <a href=""><div id="dowload-cv" class="feature">DOWNLOAD CV</div></a>
+                <p class="Lorem">I graduated with an International Economics degree in the Ho Chi Minh City Open
+                    University, looking for a position in Quality System Assistant Staff, as well as problems and
+                    solutions within the industry. As a person, I am hard working, passionate and always curious about
+                    problems. As an employee, I am honest, responsible, friendly and helpful. I hope I can bring all
+                    that to contribute toward the development of the Company.</p>
+                <a href="">
+                    <div id="dowload-cv" class="feature">DOWNLOAD CV</div>
+                </a>
             </div>
         </div>
     </div>
@@ -83,7 +92,7 @@
         <p class="p2">HTML, CSS, JavaScript</p>
     </div>
     <!-- experient & education -->
-    <div class="edu-ex">            
+    <div class="edu-ex">
         <p class="p1">EXPERIENCE</p>
         <p class="p1">EDUCATION</p>
     </div>
@@ -102,7 +111,9 @@
                     <p class="p4">International Economics</p>
                     <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
                 </div>
-                <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+                    cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse
+                    cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
             </div>
 
             <div class="box-exper-edu">
@@ -111,7 +122,9 @@
                     <p class="p4">International Economics</p>
                     <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
                 </div>
-                <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+                    cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse
+                    cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
             </div>
         </div>
 
@@ -125,7 +138,9 @@
                         <p class="p4">International Economics</p>
                         <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
                     </div>
-                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
+                        nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat
+                        nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
                 </div>
 
                 <div class="box-exper-edu">
@@ -134,7 +149,9 @@
                         <p class="p4">International Economics</p>
                         <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
                     </div>
-                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
+                        nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat
+                        nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
                 </div>
             </div>
 
@@ -146,7 +163,9 @@
                         <p class="p4">International Economics</p>
                         <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
                     </div>
-                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
+                        nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat
+                        nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
                 </div>
                 <div class="box-exper-edu">
                     <div class="timeline">
@@ -154,7 +173,9 @@
                         <p class="p4">International Economics</p>
                         <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
                     </div>
-                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur
+                        nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat
+                        nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
                 </div>
             </div>
 
@@ -163,31 +184,35 @@
         <!-- education -->
 
         <div class="education">
-                <div class="box-exper-edu">
-                    <div class="timeline">
-                        <p class="p3">Open University Ho Chi Minh City</p>
-                        <p class="p4">International Economics</p>
-                        <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
-                    </div>
-                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+            <div class="box-exper-edu">
+                <div class="timeline">
+                    <p class="p3">Open University Ho Chi Minh City</p>
+                    <p class="p4">International Economics</p>
+                    <p class="p5">OCTOBER 2017 - OCTOBER 2022</p>
                 </div>
-        
-                <div class="box-exper-edu">
-                    <div class="timeline">
-                        <p class="p3">Dropbox</p>
-                        <p class="p4">Product Designer</p>
-                        <p class="p5">AUGUST 2019 - PRESENT</p>
-                    </div>
-                    <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+                    cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse
+                    cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+            </div>
+
+            <div class="box-exper-edu">
+                <div class="timeline">
+                    <p class="p3">Dropbox</p>
+                    <p class="p4">Product Designer</p>
+                    <p class="p5">AUGUST 2019 - PRESENT</p>
                 </div>
+                <p class="p-content">Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+                    cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse
+                    cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+            </div>
         </div>
     </div>
 
     <!-- recentwork -->
-    <div class="recentwork" id="works-link" >
+    <div class="recentwork" >
         <div class="section">
             <div class="hr"></div>
-            <p class="feature">PROJECTS</p>
+            <p class="feature" id="works-link">PROJECTS</p>
             <div class="hr hr-mobie"></div>
         </div>
         <p class="p2">Here are some of my favorite projects I have done lately. Feel free to check them out.</p>
@@ -202,10 +227,10 @@
                     <img src="./assets/images/sun-flowers.jpg" alt="company-logo">
                 </div>
                 <a href="">
-                    <div class="work-content"> 
+                    <div class="work-content">
                         <div class="hoverMTop button"></div>
                         <p class="p5">website</p>
-                        <p class="p4">company name</p> 
+                        <p class="p4">company name</p>
                     </div>
                 </a>
             </div>
@@ -215,9 +240,9 @@
                     <img src="./assets/images/sun-flowers.jpg" alt="company-logo">
                 </div>
                 <a href="">
-                    <div class="work-content"> 
+                    <div class="work-content">
                         <p class="p5">website</p>
-                        <p class="p4">company name</p> 
+                        <p class="p4">company name</p>
                     </div>
                 </a>
             </div>
@@ -227,9 +252,9 @@
                     <img src="./assets/images/sun-flowers.jpg" alt="company-logo">
                 </div>
                 <a href="">
-                    <div class="work-content"> 
+                    <div class="work-content">
                         <p class="p5">website</p>
-                        <p class="p4">company name</p> 
+                        <p class="p4">company name</p>
                     </div>
                 </a>
             </div>
@@ -240,9 +265,9 @@
                     <img src="./assets/images/sun-flowers.jpg" alt="company-logo">
                 </div>
                 <a href="">
-                    <div class="work-content"> 
+                    <div class="work-content">
                         <p class="p5">website</p>
-                        <p class="p4">company name</p> 
+                        <p class="p4">company name</p>
                     </div>
                 </a>
             </div>
@@ -252,9 +277,9 @@
                     <img src="./assets/images/sun-flowers.jpg" alt="company-logo">
                 </div>
                 <a href="">
-                    <div class="work-content"> 
+                    <div class="work-content">
                         <p class="p5">website</p>
-                        <p class="p4">company name</p> 
+                        <p class="p4">company name</p>
                     </div>
                 </a>
             </div>
@@ -264,9 +289,9 @@
                     <img src="./assets/images/sun-flowers.jpg" alt="company-logo">
                 </div>
                 <a href="">
-                    <div class="work-content"> 
+                    <div class="work-content">
                         <p class="p5">website</p>
-                        <p class="p4">company name</p> 
+                        <p class="p4">company name</p>
                     </div>
                 </a>
             </div>
@@ -289,8 +314,9 @@
                     </div>
                 </div>
                 <div class="person-comment-quote">
-                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem.
+                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem
+                    nihil nostrum.
                     Laudantium quia consequatur molestias delectus culpa.
                 </div>
             </div>
@@ -305,8 +331,9 @@
                     </div>
                 </div>
                 <div class="person-comment-quote">
-                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
+                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem.
+                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem
+                    nihil nostrum.
                     Laudantium quia consequatur molestias delectus culpa.
                 </div>
             </div>
@@ -321,17 +348,18 @@
                 <p class="feature">REACH ME</p>
                 <div class="hr hr-mobie"></div>
             </div>
-            <p class="p2">I love to hear from you. Whether you have a question or just want to chat about design, tech & art — shoot me a message.</p>
+            <p class="p2">I love to hear from you. Whether you have a question or just want to chat about design, tech &
+                art — shoot me a message.</p>
         </div>
 
         <div class="contact">
             <div class="reach-me-at">
-                <p class="p1 contact-p1" >REACH ME AT</p>
+                <p class="p1 contact-p1">REACH ME AT</p>
                 <p class="p10">sayhello@luther.com</p>
                 <p class="p10">+197 543 2345</p>
             </div>
             <div class="social">
-                <p class="p1 contact-p1" >REACH ME AT</p>
+                <p class="p1 contact-p1">REACH ME AT</p>
                 <p class="p10">sayhello@luther.com</p>
                 <p class="p10">+197 543 2345</p>
             </div>
@@ -344,4 +372,5 @@
     <div class="end"></div>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
