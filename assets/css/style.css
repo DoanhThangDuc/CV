@@ -1,0 +1,925 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141516;
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.end {
+    height: 20vh;
+}
+
+
+/************heading****************/
+/* *********bigger than 770px******** */
+.mobie {
+    display: none;
+}
+
+.heading {
+    position: fixed;
+    display: inline-flex;
+    justify-content: center;
+
+    top: 0px;
+    left: 5%;
+    z-index: 100;
+    width: 90%;
+
+    background-color: #141516;
+}
+
+.heading .but:hover {
+    color: rgb(206, 163, 21);
+    transition: 0.5s;
+}
+
+.heading a {
+    display: flex;
+    flex: 1;
+
+    align-items: center;
+    height: 64px;
+
+    padding-left: 20px;
+
+    font-size: 10px;
+    font-weight: 400;
+    font-family: inherit;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    color: white;
+    text-align: left;
+
+    border: 0.3px solid rgb(46, 46, 46);
+
+    cursor: pointer;
+
+}
+
+.scrollToHeading {
+    background: #4c4949;
+}
+
+.contact__bar {
+    position: absolute;
+    top: 150px;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__bar a {
+    transform: rotate(90deg);
+    padding: 60px;
+    text-align: center;
+    color: #828286;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.circle {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    top: -140px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one__cirle {
+    position: absolute;
+    border: 1px solid #27271f;
+    border-radius: 50%;
+}
+
+/**************Intro**********************/
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 190px;
+    color: white;
+    font-family: inherit;
+}
+
+.section {
+    padding-left: 80px;
+    padding: 50px 0 50px 80px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.hr {
+    border-bottom: 1px solid rgb(173, 169, 169);
+    width: 5%;
+}
+
+.feature {
+    margin: 0 20px;
+    color: #eabe7b;
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+.introduction__quote p {
+    padding-left: 80px;
+    font-family: sans-serif;
+    font-size: 85px;
+    font-weight: 600;
+}
+
+/***************ABOUT********************/
+.about {
+    display: inline-flex;
+    width: 100%;
+    padding: 225px 80px;
+
+    color: white;
+
+}
+
+.column-left-about {
+    position: relative;
+    width: 50%;
+}
+
+.about img {
+    position: relative;
+    width: 100%;
+
+}
+
+
+.column-right-about {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.about-content {
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: none;
+}
+
+.about-content .Lorem {
+    width: 675px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: sans-serif;
+
+    line-height: 45px;
+    letter-spacing: 2px;
+
+    color: white;
+}
+
+#dowload-cv {
+    height: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2c2c2d;
+}
+
+.about-content a {
+    text-decoration: none;
+}
+
+/* ***************about footer*************** */
+
+.expertise-box {
+    width: 90%;
+    color: white;
+    margin: auto;
+}
+
+.p1 {
+    margin-top: 180px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.p2 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    font-weight: 750;
+    line-height: 50px;
+}
+
+
+
+/* **********Experience & education***************/
+.ex__edu-mobie {
+    display: none;
+}
+
+.edu-ex {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.ex-edu {
+    width: 100%;
+    padding-left: 80px;
+    display: inline-flex;
+}
+
+.experience {
+    flex: 1;
+    padding-top: 40px;
+
+}
+
+.education {
+    flex: 1;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.box-exper-edu {
+    width: 50%;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+
+    border-left: 1px solid rgb(196, 196, 19);
+}
+
+.p3 {
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.p4 {
+    color: white;
+    font-size: 24px;
+}
+
+.p5 {
+    color: #545457;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.p-content {
+    width: 150%;
+
+    color: #828286;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* **********************WORK********************* */
+
+.projects {
+    margin: auto;
+    display: inline-flex;
+    width: 100%;
+}
+.project {
+    display: inline-flex;
+    margin-top: 50px;
+    height: 100px;
+}
+
+.column-left-works {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-right-works {
+    flex: 1;
+    display: flex;
+    flex-direction: column
+}
+
+.work-image img {
+    width: 47%;
+    height: 75%;
+    margin-left: 110px;
+}
+
+.work-content {
+    height: 110px;
+    margin-left: 15px;
+
+    padding-left: 20px;
+}
+
+.project:hover img {
+    filter: brightness(150%);
+    transition: 0.5s;
+
+}
+
+.project:hover .p4 {
+    color: #c4cf25;
+    transition: 0.5s;
+}
+
+
+/* ********************COMMENT***************** */
+
+
+.comment {
+    display: inline-flex;
+    margin: 200px 0;
+
+    color: white;
+
+}
+
+.head-comment {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.person-comment-img img {
+    width: 125%;
+    height: 60px;
+    clip-path: circle();
+}
+
+.person-comment-role {
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 26px;
+}
+
+.p7 {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+.one-comment:hover .p7 {
+    color: #c4cf25;
+    transition: 0.5s;
+}
+
+.p8 {
+    font-size: 15px;
+    color: #828286;
+}
+
+.one-comment:hover .p8 {
+    color: aliceblue;
+    transition: 0.5s;
+
+}
+
+.person-comment-quote {
+    padding: 15px 25%;
+
+    font-size: 16px;
+    color: #828286;
+    line-height: 26px;
+}
+
+/* *************CONTACT************** */
+.contact {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.p10 {
+    color: #828286;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.contact-p1 {
+    margin-left: 0;
+}
+
+
+
+/* ************hamberger button************** */
+.mobie__menuBtn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 80px;
+
+    background-color: transparent;
+    cursor: pointer;
+
+    transition: all .5s ease-in-out;
+    /* border: 1px solid #fff; */
+}
+
+.hamber {
+    width: 50px;
+    height: 6px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all 0.5 ease-in-out;
+}
+
+.hamber::before,
+.hamber::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    border-radius: 5px;
+
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+    transition: all .5s ease-in-out;
+}
+
+.hamber::before {
+    transform: translateY(-16px);
+}
+
+.hamber::after {
+    transform: translateY(16px);
+}
+
+.mobie__menuBtn.open .hamber {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+    transition: all .5s ease-in-out;
+}
+
+.mobie__menuBtn.open .hamber::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.mobie__menuBtn.open .hamber::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+.hello {
+    margin-left: 100px;
+}
+
+.my__link {
+    display: none;
+}
+
+/* Mobie < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .section {
+        padding: 0;
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+    .feature {
+        font-size: 13px;
+    }
+
+    .introduction {
+        padding-top: 295px;
+    }
+
+    .introduction__quote p {
+        font-size: 30px;
+        margin-top: 15px;
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-content .Lorem {
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 310px 0 0 0;
+        margin-top: 30px;
+    }
+
+    .about-content {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .about-content .Lorem {
+        width: 100%;
+        padding: 20px 10px 0;
+    }
+
+    .column-left-about,
+    .column-right-about {
+        width: 100%;
+    }
+
+    #dowload-cv {
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .p1 {
+        margin: 50px 0 10px;
+    }
+
+    .p-content {
+        display: none;
+    }
+
+    .ex-edu {
+        padding: 0;
+    }
+
+    .timeline {
+        width: 80%;
+        border-bottom: 1px solid #c4cf25;
+        margin: 0 auto;
+    }
+
+    .p2 {
+        display: none;
+    }
+
+    .comment {
+        display: none;
+    }
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 65px;
+    }
+
+    .project-2,
+    .project-3,
+    .project-5,
+    .project-6 {
+        display: none;
+    }
+
+    /* .projects a {
+        padding-left: 20px;
+    } */
+
+    .reach-me-at {
+        display: none;
+    }
+
+    .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social {
+        margin-left: 10px;
+    }
+
+    .feature {
+        margin: 0 10px 0;
+        padding: 0;
+    }
+
+    .social {
+        margin: 10px auto;
+    }
+
+    .say-hello {
+        height: 40px;
+    }
+
+    .circle {
+        top: 150px;
+    }
+}
+
+
+/* Tablet: width >= 740px and < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .introduction {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+        padding: 0;
+        margin-top: 70px;
+        justify-content: center;
+
+    }
+
+    .section .feature {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .introduction__quote p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    .about {
+        width: 100%;
+        margin: 100px 0;
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .column-right-about,
+    .column-left-about {
+        width: 100%;
+    }
+
+    .about-content {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-content .section {
+        width: 100%;
+    }
+
+    .about-content .Lorem {
+        margin-top: 60px;
+        width: 100%;
+        letter-spacing: 1px;
+        line-height: 33px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #dowload-cv {
+        margin: 85px auto;
+        width: 80%;
+    }
+
+    .p1 {
+        margin-top: 0;
+    }
+
+    .expertise-box {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .expertise-box .p1 {
+        margin: 0;
+        padding-bottom: 25px;
+        padding-left: 40px;
+    }
+
+    .expertise-box .p2 {
+        margin: 0;
+        padding-left: 40px;
+    }
+
+    .expertise-box .section {
+        margin-bottom: 40px;
+    }
+
+    .ex-edu {
+        padding: 0;
+    }
+
+    .edu-ex .p1 {
+        margin-left: 0;
+    }
+
+    .experience {
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .education {
+        width: 50%;
+    }
+
+    .p-content {
+        display: none;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .project {
+        padding-left: 0;
+    }
+
+    .person-comment-quote {
+        padding: 0;
+    }
+
+    .comment {
+        display: block;
+    }
+
+    .end {
+        display: none;
+    }
+
+    .reach-me-at {
+        display: none;
+    }
+}
+
+/* Mobie & Tablet width < 1024px */
+
+@media only screen and (max-width: 63.9375em) {
+    .mobie {
+        position: fixed;
+        z-index: 300;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #545457;
+        background-color: #141516;
+    }
+
+    .heading {
+        display: none;
+    }
+
+    .mobie__menuBtn {
+        border: none;
+        background-color: transparent;
+    }
+
+    .mobie__logo {
+        padding-left: 40px;
+        padding-top: 30px;
+
+        color: white;
+        font-size: 20px;
+    }
+
+    .education,
+    .experience,
+    .edu-ex {
+        display: none;
+    }
+
+    .ex__edu-mobie {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+
+        text-align: center;
+    }
+
+    .ex__edu-mobie .p1 {
+        margin-left: 0px;
+        margin-top: 110px;
+    }
+
+    .box-exper-edu {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .timeline {
+        margin-top: 40px;
+    }
+
+    .recentwork {
+        padding-top: 100px;
+    }
+
+    .recentwork .section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .column-left-works,
+    .column-right-works {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-image img {
+        margin-left: 0;
+        width: 110%;
+        height: 110px;
+    }
+
+    .comment {
+        margin: 90px 0;
+    }
+
+    .one-comment {
+        display: inline-flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .say-hello {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .contact {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        height: 100vh;
+    }
+
+    .my__link {
+        position: fixed;
+        top: 5.5%;
+        left: 0;
+
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    .hr-mobie {
+        display: block;
+    }
+
+    .mobie .heading__about,
+    .mobie .heading__works,
+    .mobie .heading__say_hello {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 50px;
+
+        background-color: #141516;
+        border: 1px solid #2c2c2d;
+        color: white;
+        position: relative;
+    }
+
+    .contact__bar {
+        display: none;
+    }
+}
