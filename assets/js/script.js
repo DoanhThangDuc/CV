@@ -11,6 +11,7 @@ const headingAbout = $(".desktop.heading__about");
 const headingWorks = $(".desktop.heading__works");
 const headingSayHello = $(".desktop.heading__say_hello");
 
+console.log(headingIntro, headingAbout, headingWorks, headingSayHello);
 const app = {
   // handle events
   handleEvent: function () {
