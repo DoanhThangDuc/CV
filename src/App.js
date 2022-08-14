@@ -1,3 +1,6 @@
+import './App.css';
+import React from 'react';
+
 // making close and open navigation
 
 const $ = document.querySelector.bind(document);
@@ -545,7 +548,7 @@ function App() {
       <Form.SayHello />
       <Form.End />
     </React.Fragment>
-  );
+  )
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
