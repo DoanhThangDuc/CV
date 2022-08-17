@@ -305,6 +305,7 @@ body {
   display: inline-flex;
   width: 100%;
 }
+
 .project {
   display: inline-flex;
   margin-top: 50px;
@@ -494,112 +495,108 @@ body {
   margin-left: 100px;
 }
 
-.my__link {
-  display: none;
-}
-
 /* Mobie < 740px */
 @media only screen and (max-width: 46.1875em) {
   .section {
-      padding: 0;
-      width: 100%;
-      display: inline-flex;
-      justify-content: center;
+    padding: 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
   }
 
   .feature {
-      font-size: 13px;
+    font-size: 13px;
   }
 
   .introduction {
-      padding-top: 295px;
+    padding-top: 295px;
   }
 
   .introduction__quote p {
-      font-size: 30px;
-      margin-top: 15px;
-      padding: 0;
+    font-size: 30px;
+    margin-top: 15px;
+    padding: 0;
 
-      display: flex;
-      justify-content: center;
-      text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 
   .about-content .Lorem {
-      font-size: 15px;
-      line-height: 20px;
-      letter-spacing: 0;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0;
   }
 
   .about {
-      display: flex;
-      flex-direction: column-reverse;
-      padding: 310px 0 0 0;
-      margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 310px 0 0 0;
+    margin-top: 30px;
   }
 
   .about-content {
-      position: relative;
-      width: 100%;
-      margin: 0;
-      text-align: center;
-      margin-top: 40px;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 40px;
   }
 
   .about-content .Lorem {
-      width: 100%;
-      padding: 20px 10px 0;
+    width: 100%;
+    padding: 20px 10px 0;
   }
 
   .column-left-about,
   .column-right-about {
-      width: 100%;
+    width: 100%;
   }
 
   #dowload-cv {
-      margin-top: 50px;
-      margin-left: 0;
-      width: 100%;
+    margin-top: 50px;
+    margin-left: 0;
+    width: 100%;
   }
 
   .p1 {
-      margin: 50px 0 10px;
+    margin: 50px 0 10px;
   }
 
   .p-content {
-      display: none;
+    display: none;
   }
 
   .ex-edu {
-      padding: 0;
+    padding: 0;
   }
 
   .timeline {
-      width: 80%;
-      border-bottom: 1px solid #c4cf25;
-      margin: 0 auto;
+    width: 80%;
+    border-bottom: 1px solid #c4cf25;
+    margin: 0 auto;
   }
 
   .p2 {
-      display: none;
+    display: none;
   }
 
   .comment {
-      display: none;
+    display: none;
   }
 
   .projects {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 65px;
   }
 
   .project-2,
   .project-3,
   .project-5,
   .project-6 {
-      display: none;
+    display: none;
   }
 
   /* .projects a {
@@ -607,34 +604,34 @@ body {
   } */
 
   .reach-me-at {
-      display: none;
+    display: none;
   }
 
   .contact {
-      width: 100%;
-      display: flex;
-      flex-direction: column-reverse;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .social {
-      margin-left: 10px;
+    margin-left: 10px;
   }
 
   .feature {
-      margin: 0 10px 0;
-      padding: 0;
+    margin: 0 10px 0;
+    padding: 0;
   }
 
   .social {
-      margin: 10px auto;
+    margin: 10px auto;
   }
 
   .say-hello {
-      height: 40px;
+    height: 40px;
   }
 
   .circle {
-      top: 150px;
+    top: 150px;
   }
 }
 
@@ -642,137 +639,137 @@ body {
 /* Tablet: width >= 740px and < 1024px */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   .introduction {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .section {
-      width: 100%;
-      padding: 0;
-      margin-top: 70px;
-      justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 70px;
+    justify-content: center;
 
   }
 
   .section .feature {
-      font-size: 20px;
-      margin-right: 20px;
+    font-size: 20px;
+    margin-right: 20px;
   }
 
   .introduction__quote p {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      padding: 0;
-      margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 60px;
   }
 
   .about {
-      width: 100%;
-      margin: 100px 0;
-      display: flex;
-      flex-direction: column-reverse;
+    width: 100%;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column-reverse;
 
   }
 
   .column-right-about,
   .column-left-about {
-      width: 100%;
+    width: 100%;
   }
 
   .about-content {
-      position: relative;
-      width: 100%;
-      margin: 0;
+    position: relative;
+    width: 100%;
+    margin: 0;
   }
 
   .about-content .section {
-      width: 100%;
+    width: 100%;
   }
 
   .about-content .Lorem {
-      margin-top: 60px;
-      width: 100%;
-      letter-spacing: 1px;
-      line-height: 33px;
-      font-size: 20px;
-      text-align: center;
+    margin-top: 60px;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 33px;
+    font-size: 20px;
+    text-align: center;
   }
 
   #dowload-cv {
-      margin: 85px auto;
-      width: 80%;
+    margin: 85px auto;
+    width: 80%;
   }
 
   .p1 {
-      margin-top: 0;
+    margin-top: 0;
   }
 
   .expertise-box {
-      box-sizing: border-box;
-      width: 100%;
-      padding-left: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 10px;
   }
 
   .expertise-box .p1 {
-      margin: 0;
-      padding-bottom: 25px;
-      padding-left: 40px;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-left: 40px;
   }
 
   .expertise-box .p2 {
-      margin: 0;
-      padding-left: 40px;
+    margin: 0;
+    padding-left: 40px;
   }
 
   .expertise-box .section {
-      margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .ex-edu {
-      padding: 0;
+    padding: 0;
   }
 
   .edu-ex .p1 {
-      margin-left: 0;
+    margin-left: 0;
   }
 
   .experience {
-      width: 50%;
-      margin-left: 10px;
+    width: 50%;
+    margin-left: 10px;
   }
 
   .education {
-      width: 50%;
+    width: 50%;
   }
 
   .p-content {
-      display: none;
+    display: none;
   }
 
   .contact {
-      width: 100%;
+    width: 100%;
   }
 
   .project {
-      padding-left: 0;
+    padding-left: 0;
   }
 
   .person-comment-quote {
-      padding: 0;
+    padding: 0;
   }
 
   .comment {
-      display: block;
+    display: block;
   }
 
   .end {
-      display: none;
+    display: none;
   }
 
   .reach-me-at {
-      display: none;
+    display: none;
   }
 }
 
@@ -780,146 +777,146 @@ body {
 
 @media only screen and (max-width: 63.9375em) {
   .mobie {
-      position: fixed;
-      z-index: 300;
-      top: 0;
-      left: 0;
-      width: 100%;
+    position: fixed;
+    z-index: 300;
+    top: 0;
+    left: 0;
+    width: 100%;
 
-      display: flex;
-      justify-content: space-between;
-      border: 1px solid #545457;
-      background-color: #141516;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #545457;
+    background-color: #141516;
   }
 
   .heading {
-      display: none;
+    display: none;
   }
 
   .mobie__menuBtn {
-      border: none;
-      background-color: transparent;
+    border: none;
+    background-color: transparent;
   }
 
   .mobie__logo {
-      padding-left: 40px;
-      padding-top: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
 
-      color: white;
-      font-size: 20px;
+    color: white;
+    font-size: 20px;
   }
 
   .education,
   .experience,
   .edu-ex {
-      display: none;
+    display: none;
   }
 
   .ex__edu-mobie {
-      display: block;
-      width: 100%;
-      margin-left: 0;
+    display: block;
+    width: 100%;
+    margin-left: 0;
 
-      text-align: center;
+    text-align: center;
   }
 
   .ex__edu-mobie .p1 {
-      margin-left: 0px;
-      margin-top: 110px;
+    margin-left: 0px;
+    margin-top: 110px;
   }
 
   .box-exper-edu {
-      width: 100%;
-      padding: 0;
-      margin: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   .timeline {
-      margin-top: 40px;
+    margin-top: 40px;
   }
 
   .recentwork {
-      padding-top: 100px;
+    padding-top: 100px;
   }
 
   .recentwork .section {
-      width: 100%;
-      margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 30px;
   }
 
   .projects {
-      width: 100%;
+    width: 100%;
   }
 
   .column-left-works,
   .column-right-works {
-      width: 50%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .work-image img {
-      margin-left: 0;
-      width: 110%;
-      height: 110px;
+    margin-left: 0;
+    width: 110%;
+    height: 110px;
   }
 
   .comment {
-      margin: 90px 0;
+    margin: 90px 0;
   }
 
   .one-comment {
-      display: inline-flex;
-      justify-content: center;
-      margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 30px;
   }
 
   .say-hello {
-      width: 100%;
-      height: 90vh;
+    width: 100%;
+    height: 90vh;
   }
 
   .contact {
-      margin-left: 0;
-      display: flex;
-      flex-direction: column-reverse;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      height: 100vh;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100vh;
   }
 
   .my__link {
-      position: fixed;
-      top: 5.5%;
-      left: 0;
+    position: fixed;
+    top: 18.5%;
+    left: 0;
 
-      flex-direction: column;
+    flex-direction: column;
 
-      width: 100%;
+    width: 100%;
   }
 
   .hr-mobie {
-      display: block;
+    display: block;
   }
 
   .mobie .heading__about,
   .mobie .heading__works,
   .mobie .heading__say_hello {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-      width: 100%;
-      height: 50px;
+    width: 100%;
+    height: 50px;
 
-      background-color: #141516;
-      border: 1px solid #2c2c2d;
-      color: white;
-      position: relative;
+    background-color: #141516;
+    border: 1px solid #2c2c2d;
+    color: white;
+    position: relative;
   }
 
   .contact__bar {
-      display: none;
+    display: none;
   }
 }

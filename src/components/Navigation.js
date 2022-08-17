@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 function Navigation() {
   const [opacity, setOpacity] = useState(1);
 
+  const [mobileNav, setMobileNav] = useState(false);
+
   const handleScroll = () => {
     const position = window.scrollY;
     //0 860  3358 4640
@@ -24,26 +26,35 @@ function Navigation() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [opacity]);
+
   return (
     <div className="navigation">
       <div className="mobie">
         <a className="mobie__logo" href="#intro-link">
           D.T.DUC
         </a>
-        <div className="mobie__menuBtn">
+        <div
+          //mobie__menuBtn
+          className={mobileNav ? "mobie__menuBtn open" : "mobie__menuBtn"}
+          onClick={() => {
+            setMobileNav(!mobileNav);
+          }}
+        >
           <div className="hamber"></div>
         </div>
-        <div className="my__link">
-          <a className="heading__about" href="#about-link">
-            ABOUT
-          </a>
-          <a className="heading__works" href="#works-link">
-            WORKS
-          </a>
-          <a className="heading__say_hello" href="#say-hello">
-            SAY HELLO
-          </a>
-        </div>
+        {mobileNav && (
+          <div className="my__link">
+            <a className="heading__about" href="#about-link">
+              ABOUT
+            </a>
+            <a className="heading__works" href="#works-link">
+              WORKS
+            </a>
+            <a className="heading__say_hello" href="#say-hello">
+              SAY HELLO
+            </a>
+          </div>
+        )}
       </div>
       // desktop heading__intro
       <div className="heading">
