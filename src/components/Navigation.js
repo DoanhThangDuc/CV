@@ -1,23 +1,21 @@
 import { useState, useEffect } from "react";
 
 function Navigation() {
-  const [opacity, setOpacity] = useState(1);
-
-  const [mobileNav, setMobileNav] = useState(false);
+  const [activePosition, setActivePosition] = useState(1);
+  const [isMobileNavExpand, setMobileNavExpand] = useState(false);
 
   const handleScroll = () => {
     const position = window.scrollY;
-    //0 860  3358 4640
     if (0 <= position && position < 860) {
-      return setOpacity(1);
+      return setActivePosition(1);
     }
     if (860 <= position && position < 3358) {
-      return setOpacity(2);
+      return setActivePosition(2);
     }
     if (3358 <= position && position < 4640) {
-      return setOpacity(3);
+      return setActivePosition(3);
     }
-    return setOpacity(4);
+    return setActivePosition(4);
   };
 
   useEffect(() => {
@@ -25,7 +23,7 @@ function Navigation() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [opacity]);
+  }, [activePosition]);
 
   return (
     <div className="navigation">
@@ -35,14 +33,14 @@ function Navigation() {
         </a>
         <div
           //mobie__menuBtn
-          className={mobileNav ? "mobie__menuBtn open" : "mobie__menuBtn"}
+          className={isMobileNavExpand ? "mobie__menuBtn open" : "mobie__menuBtn"}
           onClick={() => {
-            setMobileNav(!mobileNav);
+            setMobileNavExpand(!isMobileNavExpand);
           }}
         >
           <div className="hamber"></div>
         </div>
-        {mobileNav && (
+        {isMobileNavExpand && (
           <div className="my__link">
             <a className="heading__about" href="#about-link">
               ABOUT
@@ -60,8 +58,8 @@ function Navigation() {
       <div className="heading">
         <a
           className={
-            opacity === 1
-              ? "desktop heading__intro scrollToHeading"
+            activePosition === 1
+              ? "desktop heading__intro active"
               : "desktop heading__intro"
           }
           href="#intro-link"
@@ -70,8 +68,8 @@ function Navigation() {
         </a>
         <a
           className={
-            opacity === 2
-              ? "desktop heading__about scrollToHeading"
+            activePosition === 2
+              ? "desktop heading__about active"
               : "desktop heading__about"
           }
           href="#about-link"
@@ -80,8 +78,8 @@ function Navigation() {
         </a>
         <a
           className={
-            opacity === 3
-              ? "desktop heading__works scrollToHeading"
+            activePosition === 3
+              ? "desktop heading__works active"
               : "desktop heading__works"
           }
           href="#works-link"
@@ -90,8 +88,8 @@ function Navigation() {
         </a>
         <a
           className={
-            opacity === 4
-              ? "desktop heading__say_hello scrollToHeading"
+            activePosition === 4
+              ? "desktop heading__say_hello active"
               : "desktop heading__say_hello"
           }
           href="#say-hello"

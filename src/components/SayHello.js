@@ -1,3 +1,5 @@
+import React from "react";
+
 function SayHello() {
   return (
     <div className="say-hello">
@@ -20,13 +22,25 @@ function SayHello() {
       <div className="contact">
         <div className="reach-me-at">
           <p className="p1 contact-p1">REACH ME AT</p>
-          <p className="p10">sayhello@luther.com</p>
-          <p className="p10">+197 543 2345</p>
+          <a
+            className="p10"
+            href="mailto:doanhthangduc2802@gmail.com"
+            target="_blank"
+          >
+            doanhthangduc2802@gmail.com
+          </a>
+          <p className="p10">+84 36 722 3095 </p>
         </div>
         <div className="social">
           <p className="p1 contact-p1">REACH ME AT</p>
-          <p className="p10">doanhthangduc2802@gmail.com</p>
-          <p className="p10"> +84 722 3095</p>
+          <a
+            className="p10"
+            href="mailto:doanhthangduc2802@gmail.com"
+            target="_blank"
+          >
+            doanhthangduc2802@gmail.com
+          </a>
+          <p className="p10"> +84 36 722 3095</p>
         </div>
         <a href="" id="dowload-cv" className="feature">
           SAY HELLO.
