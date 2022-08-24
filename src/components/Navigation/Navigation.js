@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Header } from "./Navigation.styled";
 
 function Navigation() {
   const [activePosition, setActivePosition] = useState(1);
@@ -33,7 +34,9 @@ function Navigation() {
         </a>
         <div
           //mobie__menuBtn
-          className={isMobileNavExpand ? "mobie__menuBtn open" : "mobie__menuBtn"}
+          className={
+            isMobileNavExpand ? "mobie__menuBtn open" : "mobie__menuBtn"
+          }
           onClick={() => {
             setMobileNavExpand(!isMobileNavExpand);
           }}
@@ -54,8 +57,8 @@ function Navigation() {
           </div>
         )}
       </div>
-      // desktop heading__intro
-      <div className="heading">
+
+      <Header>
         <a
           className={
             activePosition === 1
@@ -96,7 +99,7 @@ function Navigation() {
         >
           SAY HELLO
         </a>
-      </div>
+      </Header>
     </div>
   );
 }
