@@ -11,7 +11,6 @@ import RecentWork from "./components/RecentWork/RecentWork";
 import Projects from "./components/Projects/Projects";
 import SayHello from "./components/Contact/SayHello";
 import End from "./components/ExpertiseBox/End";
-import "./App.css";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./components/styles/Global";
 import Comments from "./components/Comment/Comment";

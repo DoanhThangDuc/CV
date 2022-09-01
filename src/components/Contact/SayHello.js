@@ -16,7 +16,10 @@ const reachInfo = [
     tel: "+84 36 722 3095",
     telHref: "tel:0367223095",
   },
+<<<<<<< HEAD
   
+=======
+>>>>>>> 3727b78 (resolve branch's problems)
 ];
 function SayHello() {
   return (
@@ -25,7 +28,11 @@ function SayHello() {
       <Contact>
         {reachInfo.map((info) => {
           return (
+<<<<<<< HEAD
             <StyledReachMe>
+=======
+            <StyledReachMe key={info.emailHref}>
+>>>>>>> 3727b78 (resolve branch's problems)
               <P1>REACH ME AT</P1>
               <Infor>
                 <a href={info.emailHref} target="_blank">
