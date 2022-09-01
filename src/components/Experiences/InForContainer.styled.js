@@ -60,6 +60,6 @@ export const P5 = styled.p`
     transition: 0.5s;
   }
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    line-height: 10px;
+    display: none
   }
 `;

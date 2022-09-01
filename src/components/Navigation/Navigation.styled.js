@@ -31,8 +31,10 @@ export const Header = styled.div`
     text-align: left;
 
     border: 0.3px solid rgb(46, 46, 46);
-
     cursor: pointer;
+    background: ${(props) =>
+      props.changeBackground ? "#4c4949" : "transparent"};
+    transition: 0.8s;
   }
   & a:hover {
     color: rgb(206, 163, 21);
@@ -41,4 +43,7 @@ export const Header = styled.div`
   @media only screen and (max-width: ${({ theme }) => theme.tablet}) {
     display: none;
   }
+  @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
+  }
 `;
+export const NavigationStyled = styled.div``;

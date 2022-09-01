@@ -19,28 +19,40 @@ export const Contact = styled.div`
   @media only screen and (max-width: ${({ theme }) => theme.tablet}) {
     width: 100%;
     margin-left: 0;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 30px;
     height: 100vh;
   }
   @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column-reverse;
+    height: 50vh;
   }
 `;
 export const StyledReachMe = styled.div`
-
-& a {
+  @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  & a {
+    color: #fff;
+  }
+`;
+export const Infor = styled.div`
+  display: flex;
+  flex-direction: column;
   color: #fff;
-}
-& p{
-  color: #fff;
-}
+  @media only screen and (max-width: ${({ theme }) => theme.mobile}) {
+    text-align: center;
+  }
 `;
 export const P10 = styled.p`
   color: #828286;
   font-size: 17px;
-  line-height: 35px;`;
+  line-height: 35px;
+`;
 export const Social = styled.div``;

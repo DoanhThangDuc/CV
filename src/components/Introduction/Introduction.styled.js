@@ -6,7 +6,7 @@ export const StyledIntroduction = styled.div`
   align-items: center;
   text-align: center;
 
-  padding-top: 125px;
+  padding-top: 200px;
   color: white;
   font-family: inherit;
 
@@ -23,7 +23,7 @@ export const StyledIntroduction = styled.div`
   }
   @media (max-width: ${({ theme }) => theme.tablet}) {
     & p {
-      padding-top: 10vh;
+      padding-top: 8vh;
     }
     & span {
       display: none;

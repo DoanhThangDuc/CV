@@ -17,23 +17,6 @@ const GlobalStyles = createGlobalStyle`
   box-sizing: border-box;
   overflow-x: hidden;
   }
-  .p1 {
-  margin-top: 180px;
-  margin-left: 80px;
-  margin-bottom: 40px;
-  letter-spacing: 3px;
-  color: white;
-}
-.p2 {
-  width: 90%;
-  display: flex;
-  margin: auto;
-  color: white;
-  font-size: 50px;
-  font-weight: 750;
-  line-height: 50px;
-}
 `;
-
 
 export default GlobalStyles;

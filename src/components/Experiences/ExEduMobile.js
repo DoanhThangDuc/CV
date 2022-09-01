@@ -6,6 +6,8 @@ function ExEduMobile() {
       <div className="ex__edu-mobie">
         <div className="ex__edu-mobie-experience">
           <p className="p1">EXPERIENCE</p>
+
+          
           <div className="box-exper-edu">
             <div className="timeline">
               <p className="p3">Open University Ho Chi Minh City</p>

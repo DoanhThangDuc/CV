@@ -1,15 +1,11 @@
 import { SectionBar } from "../styles/SectionBar.styled";
 import { StyledButton } from "../styles/Button.styled";
-import {
-  StyledAbout,
-  AboutContent,
-  AboutQuote,
-} from "./About.styled";
+import { StyledAbout, AboutContent, AboutQuote } from "./About.styled";
 
 function About() {
   return (
     <StyledAbout>
-      <img src="./assets/images/about-photo.jpg" id="about-link" alt="about" />
+      <img src="./assets/images/avatar.jpg" id="about-link" alt="about" />
       <AboutContent>
         <SectionBar>
           <span></span>
@@ -28,9 +24,8 @@ function About() {
             toward the development of the Company.
           </p>
         </AboutQuote>
-
         <StyledButton>
-          <p>Download CV</p>
+          <a>Download CV</a>
         </StyledButton>
       </AboutContent>
     </StyledAbout>

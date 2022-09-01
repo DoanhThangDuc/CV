@@ -11,7 +11,7 @@ function ProjectList(arr) {
         <a href="#">
           <Content>
             <P5>website</P5>
-            <P4>company name</P4>
+            <P4>Project</P4>
           </Content>
         </a>
       </StyledProject>
