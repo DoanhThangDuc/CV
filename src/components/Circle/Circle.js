@@ -1,3 +1,4 @@
+import { StyledCircle } from "./Circle.styled";
 function Circle() {
   const circles = [
     { id: 1, className: "one__cirle circle-1", width: 100, height: 100 },
@@ -7,7 +8,7 @@ function Circle() {
     { id: 5, className: "one__cirle circle-5", width: 20, height: 20 },
   ];
   return (
-    <div className="circle">
+    <StyledCircle>
       {circles.map((circle) => {
         return (
           <span
@@ -17,7 +18,7 @@ function Circle() {
           ></span>
         );
       })}
-    </div>
+    </StyledCircle>
   );
 }
 
