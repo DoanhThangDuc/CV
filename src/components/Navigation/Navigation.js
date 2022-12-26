@@ -55,7 +55,7 @@ function Navigation() {
           return (
             <a
               style={{
-                backgroundColor: activePosition == link.id && "#4c4949",
+                backgroundColor: activePosition === link.id && "#4c4949",
               }}
               key={link.id}
               href={link.href}

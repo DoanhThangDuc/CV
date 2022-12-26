@@ -24,10 +24,11 @@ export const ColumnWork = styled.div`
   }
 `;
 
-export const StyledProject = styled.div`
+export const StyledProject = styled.a`
   display: inline-flex;
   margin-top: 50px;
   height: 100px;
+  cursor: pointer;
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
   }

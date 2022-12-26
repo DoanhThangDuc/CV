@@ -8,38 +8,49 @@ function Projects() {
   const projectsLeft = [
     {
       id: 1,
-      className: "project project-1",
-      src: "./assets/images/sun-flowers.jpg",
+      image: "./assets/images/sun-flowers.jpg",
+      link: "https://github.com/DoanhThangDuc/blog",
+      website: "GitHub",
+      name: "Blog App",
     },
     {
       id: 2,
-      className: "project project-2",
-      src: "./assets/images/sun-flowers.jpg",
+      image: "./assets/images/sun-flowers.jpg",
+      link: "https://github.com/DoanhThangDuc/CV",
+      website: "GitHub",
+      name: "CV",
     },
     {
       id: 3,
-      className: "project project-3",
-      src: "./assets/images/sun-flowers.jpg",
+      image: "./assets/images/sun-flowers.jpg",
+      link: "https://github.com/DoanhThangDuc/todo",
+      website: "GitHub",
+      name: "To Do App",
     },
   ];
   const projectsRight = [
     {
       id: 4,
-      className: "project project-4",
-      src: "./assets/images/sun-flowers.jpg",
+      image: "./assets/images/sun-flowers.jpg",
+      link: "https://github.com/DoanhThangDuc/blog",
+      website: "GitHub",
+      name: "Blog App",
     },
     {
       id: 5,
-      className: "project project-5",
-      src: "./assets/images/sun-flowers.jpg",
+      image: "./assets/images/sun-flowers.jpg",
+      link: "https://github.com/DoanhThangDuc/CV",
+      website: "GitHub",
+      name: "CV",
     },
     {
       id: 6,
-      className: "project project-6",
-      src: "./assets/images/sun-flowers.jpg",
+      image: "./assets/images/sun-flowers.jpg",
+      link: "https://github.com/DoanhThangDuc/todo",
+      website: "GitHub",
+      name: "To Do App",
     },
   ];
-
   return (
     <StyledProjectsContainer>
       <ColumnWork>

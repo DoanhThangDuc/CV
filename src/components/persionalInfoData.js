@@ -1,13 +1,13 @@
 export const personalExp = [
   {
     id: 1,
-    company: "Tai Nang Tre Company Limited.",
-    work: "Online English Tutor",
-    period: "OCTOBER 2017 - OCTOBER 2022",
+    company: "Concentrix Public Company.",
+    work: "Customer Services Guest Specialist for Booking.com ",
+    period: "November 2022 - Present",
     context: [
-      "Preparing and delivering lessons to improve students reading and conversing skills.",
-      "Developing educational content such as notes and quizzes.",
-      "Tailoring teaching style in accordance with students needs. Tracking and reporting on students progress.",
+      "Contact Customers for outbound calls, inbound calls, emails...to solve issues about the traveling trip, hotel, and complaint.",
+      "Provide information and advice through tools by procedure and policy.",
+      "Commit to making customers have highly positive experiences.",
     ],
   },
   {

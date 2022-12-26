@@ -15,13 +15,13 @@ function About() {
 
         <AboutQuote>
           <p>
-            I graduated with an International Economics degree in the Ho Chi
-            Minh City Open University, looking for a position in Quality System
-            Assistant Staff, as well as problems and solutions within the
-            industry. As a person, I am hard working, passionate and always
-            curious about problems. As an employee, I am honest, responsible,
-            friendly and helpful. I hope I can bring all that to contribute
-            toward the development of the Company.
+            I graduated with an International Economics degree from the Ho Chi
+            Minh City Open University. With a passion for technology, I am
+            looking for a position as a Web Developer Internship, as well as
+            problems and solutions within the industry. I have nearly one year
+            of studying and building an app web by myself. Besides, I also have
+            experience teaching English and working in an English environment so
+            I can community by English fluently.
           </p>
         </AboutQuote>
         <StyledButton>

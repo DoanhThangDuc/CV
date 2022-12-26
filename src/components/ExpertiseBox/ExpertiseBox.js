@@ -3,8 +3,6 @@ import {
   P2,
   P1
 } from "./ExpertiseBox.styled";
-import { SectionBar } from "../styles/SectionBar.styled";
-
 
 function ExpertiseBox() {
   return (
